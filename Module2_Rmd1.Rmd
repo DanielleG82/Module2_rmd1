@@ -123,3 +123,11 @@ knitr::kable(head(cars))
 ## Insert equation (using LaTex)
 
 $$ y = \beta_0 + \beta_1x $$
+
+## Insert images
+
+Here is an inserted image
+
+![Sunstar](sunstar.png)
+
+![alt text](figures/img.png)
