@@ -3,9 +3,9 @@ title: "Module2 - R Marddown Document 1"
 author: "Danielle Gauthier"
 date: '2020-04-29'
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -130,4 +130,28 @@ Here is an inserted image
 
 ![Sunstar](sunstar.png)
 
-![alt text](figures/img.png)
+Here is the R logo (using a link only works if you knit to html, not word, not pdf)
+
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+
+
+## Insert an animated GIF and video (only works in html)
+
+![sunstar_gif](sunstar.gif)
+![sunstar_mp4](sunstar.mp4)
+
+## Footnote
+# Method 1: annotation with index number. At the end of the document, provide the content you want displayed (doesn't work for me!)
+# Method 2: inline note. dont have to add at the end
+
+Here is a footnote reference [^1] and another [^longnote]
+
+Here is an inline footnote ^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
+
+Content to be referenced:
+[^1]: Here is the footnote.
+[^longnote]: Here's one with multiple blocks.
+
+
+
+
