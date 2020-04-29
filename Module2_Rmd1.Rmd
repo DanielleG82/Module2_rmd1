@@ -3,9 +3,9 @@ title: "Module2 - R Marddown Document 1"
 author: "Danielle Gauthier"
 date: '2020-04-29'
 output:
+  html_document: default
   pdf_document: default
   word_document: default
-  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -109,3 +109,17 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r pressure1, fig.height=3, fig.width=3, echo=FALSE}
+plot(pressure)
+```
+
+## Insert tables
+
+```{r}
+knitr::kable(head(cars))
+```
+
+## Insert equation (using LaTex)
+
+$$ y = \beta_0 + \beta_1x $$
