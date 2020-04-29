@@ -140,7 +140,7 @@ Here is the R logo (using a link only works if you knit to html, not word, not p
 ![sunstar_gif](sunstar.gif)
 ![sunstar_mp4](sunstar.mp4)
 
-## Footnote
+## Footnote (doesn't work in ioslide and slidy)
 # Method 1: annotation with index number. At the end of the document, provide the content you want displayed (doesn't work for me!)
 # Method 2: inline note. dont have to add at the end
 
